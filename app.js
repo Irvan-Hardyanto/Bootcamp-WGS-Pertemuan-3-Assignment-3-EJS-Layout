@@ -8,7 +8,7 @@ const port = 3000;//port number
 
 //set view engine menggunakan ejs
 app.set('view engine', 'ejs');
-app.use(expressLayouts);
+app.use(expressLayouts);//inisilaliasi express layouts
 
 //route default ke halaman index
 app.get('/',(req,res)=>{
